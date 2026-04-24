@@ -41,11 +41,6 @@ export default async function DashboardPage() {
             </div>
             <span className="text-lg font-black tracking-tighter">TrustFlow</span>
           </div>
-          <form action={logout}>
-            <button className="text-sm font-bold text-red-500 hover:bg-red-50 px-4 py-2 rounded-xl transition-colors">
-              Déconnexion
-            </button>
-          </form>
         </div>
       </nav>
 
