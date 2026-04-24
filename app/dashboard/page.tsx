@@ -26,7 +26,7 @@ export default async function DashboardPage() {
 
   // 3. VARIABLES DYNAMIQUES
   const dynamicUsername = user.email?.split('@')[0] || "user";
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trustflow-knx9x4r7d-thawbans-projects.vercel.app/";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://trustflow-phi.vercel.app/";
   const collectUrl = `${baseUrl}/${dynamicUsername}/submit`;
 
   return (
